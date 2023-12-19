@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b1701a9.css",
+    "main.js": "/static/js/main.acb3322e.js",
+    "static/js/787.4e0653a0.chunk.js": "/static/js/787.4e0653a0.chunk.js",
+    "static/media/001.mp4": "/static/media/001.7b3443fb4ea8eec5982b.mp4",
+    "static/media/alumnas_foto_grupo.jpg": "/static/media/alumnas_foto_grupo.c9f60f539691cb87ecef.jpg",
+    "static/media/logoCbta5.png": "/static/media/logoCbta5.71becab0fb0255cc7868.png",
+    "static/media/pecuario-cbta.jpg": "/static/media/pecuario-cbta.462a1caef6644592dc13.jpg",
+    "static/media/DGETAyCM.png": "/static/media/DGETAyCM.f28d7b1bed1cc6703d84.png",
+    "static/media/SEP.png": "/static/media/SEP.4e16cdaab535b60aa4df.png",
+    "static/media/voleibol-femenil.jpg": "/static/media/voleibol-femenil.4774adac6eeb3cbc3055.jpg",
+    "static/media/atletismo-femenil.jpg": "/static/media/atletismo-femenil.5ee06158934649a1cda1.jpg",
+    "static/media/panel-cbta.png": "/static/media/panel-cbta.51d5a205d2f127a1da57.png",
+    "static/media/alumns_docente_cbta.jpg": "/static/media/alumns_docente_cbta.0831bf2f0d35957cd3a6.jpg",
+    "static/media/alumnas_dance.jpg": "/static/media/alumnas_dance.ab3c05cef24c9a57dd90.jpg",
+    "static/media/desfile_cbta5.jpg": "/static/media/desfile_cbta5.6e4e4ca3eab57fff6297.jpg",
+    "static/media/varonil-futbol.jpg": "/static/media/varonil-futbol.7fa4387d4af09de7018a.jpg",
+    "static/media/cbta-Agricola.jpg": "/static/media/cbta-Agricola.8bbf33ba4aba30f59caf.jpg",
+    "static/media/cbta-Administración.jpg": "/static/media/cbta-Administración.ff0c74a32a6b23d77d58.jpg",
+    "static/media/cbta-Desarrollo.jpg": "/static/media/cbta-Desarrollo.f500f39d96360e106ecf.jpg",
+    "static/media/cbta-Ofimática.jpg": "/static/media/cbta-Ofimática.bb3241fd7d2687d10073.jpg",
+    "static/media/cbta-Programación.jpg": "/static/media/cbta-Programación.750d12caf298ba08b3f9.jpg",
+    "static/media/cbta-Contabilidad.jpg": "/static/media/cbta-Contabilidad.3ba15dc5273445808e87.jpg",
+    "static/media/cbta-Alimentos.jpg": "/static/media/cbta-Alimentos.49c35ee15e2912591462.jpg",
+    "static/media/cbta-Agropecuario.jpg": "/static/media/cbta-Agropecuario.af19ce29a9f86d4316ea.jpg",
+    "static/media/SEMS.webp": "/static/media/SEMS.47923b6a4beed7bbadcb.webp",
+    "index.html": "/index.html",
+    "static/media/person-circle-outline.svg": "/static/media/person-circle-outline.e119b97e85d8b06ca50680ae00120cfd.svg",
+    "static/media/person-add-outline.svg": "/static/media/person-add-outline.62069cf68a9b19ae0f654ebcfb250dc0.svg",
+    "main.7b1701a9.css.map": "/static/css/main.7b1701a9.css.map",
+    "main.acb3322e.js.map": "/static/js/main.acb3322e.js.map",
+    "787.4e0653a0.chunk.js.map": "/static/js/787.4e0653a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b1701a9.css",
+    "static/js/main.acb3322e.js"
+  ]
+}
