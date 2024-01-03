@@ -1,0 +1,308 @@
+.container-navbar{
+  width: 100%;
+  background-color:var(--fondoNavbar);
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+  align-items: center;
+  z-index: 1000;
+}
+.navbar-list {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.navbar-list img{
+   width: 80px;
+   padding: 10px 0 0 10px;
+   height: auto; 
+  }
+.navbar-list span{
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-left: 10px;
+  color:var(--blanco);
+}
+.navbar-list ul{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.navbar-list ul li {
+  position: relative;
+}
+.navbar-list ul li a{
+  text-decoration: none;
+  color: var(--blanco);
+  font-size: 1.4em;
+  margin-left: 6px;
+  transition: transform 0.4s ease;
+}
+.navbar-list ul li a:hover{
+  padding: 10px ;
+}
+.navbar-sign{
+  display: flex;
+  align-items: center;
+}
+.navbar-sign span{
+  font-size: 2em;
+}
+.list-signup a ion-icon{
+  width: 60px;
+  height: 50px;
+}
+/*ICON DE USER LOGIN*/
+.navbar-list ul li ul{
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 170px;
+  background: var(--boxGris);
+  display: none;
+}
+.navbar-list ul li:hover >ul{
+  display: block;
+}
+.navbar-list ul li ul li{
+  position: relative;
+  width: 100%;
+  border: 1px solid var(--sombraBlanca);
+  padding: 10px 0;
+}
+.navbar-list ul li ul li:hover{
+  background-color: var(--letras_logos);
+}
+/*USER REGISTER*/
+.navbar-list ul li .list-li2{
+  position: absolute;
+  top:100%;
+  right: 20px;
+  width: 170px;
+  background: var(--boxGris);
+  display: none;
+  cursor: pointer;
+}
+/*SERVICE NAVBAR*/
+.navbar-list ul li .list-li3{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 160px;
+  background: var(--boxGris);
+  display: none;
+}
+.navbar-list ul li:hover .list-li3 {
+  display: block;
+}
+/*TRAMITES*/
+.navbar-list ul li .list-li4{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160px;
+  background: var(--boxGris);
+  display: none;
+}
+.navbar-list ul li .list-li3:hover .list-li4 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+.menuHamburguesa {
+  display: none;
+}
+@media(max-width:900px) {
+  .container-navbar{
+    padding: 10px 0;
+    width: 100%;
+    height: auto;
+  }
+  .navbar{
+    display: block;
+    justify-content: space-between;
+  }
+  .navbar-list{
+    padding: 1px;
+  }
+  .navbar-list ul{
+    display: none;
+  }
+ 
+  /*INGRESA AQUI EL ESTILO DE menuHamburguesa*/
+  .menuHamburguesa {
+    display: block;
+    cursor: pointer;
+    padding: 22px;
+  }
+  
+  .menuHamburguesa ion-icon {
+    color: var(--blanco);
+    font-size: 5em;
+    align-items: center;
+    justify-content: center;
+  }
+  /*menu*/
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    top: 120px;
+  right: 6px;
+  background: var(--boxGris);
+    width: 30%;
+    height: auto;
+    z-index: 1000;
+  }
+
+  .mobile-menu ul {
+    list-style: none;
+  }
+
+  .mobile-menu ul li {
+    padding: 10px;
+  }
+
+  .mobile-menu ul li a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 1.4em;
+    transition: color 0.3s ease;
+  }
+  .mobile-menu ul li ul li:hover{
+    background-color:var(--letras_logos);
+  }
+  .mobile-menu ul li ul{
+    display: none;
+  }
+  .mobile-menu ul li:hover >ul{
+    display: block;
+  }
+  /*services mobile*/
+  .mobile-menu ul li ul li{
+    position: relative;
+    width: 130px;
+    top: 2px;
+    right: 2px;
+    border: 1px solid var(--sombraBlanca);
+    padding: 10px 0;
+    background: var( --fondoNavbar);
+  }
+  .mobile-menu ul li .list-li4{
+    position: absolute;
+    top: 0;
+    right:165px;
+    width: 100px;
+    display: none;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  .mobile-menu ul li .list-li-menu{
+    position: absolute;
+    top: 240px;
+    right: 100px;
+    width: 170px;
+  }
+  .mobile-menu ul li .list-li-menu li{
+    width: 165px;
+  }
+  /*user*/
+  .mobile-menu ul li .list-li2-menu{
+    position: absolute;
+    top: 240px;
+    right: 100px;
+    width: 70px;
+  }
+  .mobile-menu ul li .list-li2-menu li{
+    width: 165px;
+  }
+  .list-signup a ion-icon{
+    width: 40px;
+    height: 40px;
+   }
+}
+
+
+
+@media(max-width:600px) {
+
+  .navbar{
+    display: block;
+    justify-content: space-between;
+  }
+  .navbar-list{
+    padding: 1px;
+  }
+  .navbar-list span{
+      display: none;
+  }
+  .navbar-list ul{
+    display: none;
+  }
+ 
+  /*INGRESA AQUI EL ESTILO DE menuHamburguesa*/
+  .menuHamburguesa {
+    display: block;
+    cursor: pointer;
+    padding: 22px;
+  }
+  
+  .menuHamburguesa ion-icon {
+    color: var(--blanco);
+    font-size: 5em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-navbar-list .navbar-sign{
+      display: flex;
+      flex-direction: column;
+  }
+  .menu-navbar-list .navbar-sign span{
+    transform: rotate(90deg);
+    color: var(--blanco);
+}
+ .list-signup a ion-icon{
+  width: 40px;
+  height: 40px;
+ }
+ .mobile-menu ul li .list-li-menu{
+  position: absolute;
+  top: 230px;
+  right: 160px;
+  width: 100%;
+}
+.mobile-menu ul li .list-li-menu a{
+ font-size: 1.2em;
+}
+
+.mobile-menu ul li .list-li2-menu{
+  position: absolute;
+  top: 350px;
+  right: 30px;
+  width: 100%;
+}
+.mobile-menu ul li .list-li2-menu a{
+ font-size: 1.2em;
+}
+
+.mobile-menu ul li .list-li4{
+  position: absolute;
+  top: 10px;
+  right:138px;
+  width: 120px;
+  display: none;
+}
+
+.mobile-menu ul li .list-li4 li a{
+ font-size: 1.2em;
+}
+}
