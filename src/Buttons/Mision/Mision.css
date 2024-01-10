@@ -1,0 +1,39 @@
+.btn button{
+  background-color: green;
+  color:white;
+  padding: 5px 20px;
+  border: none;
+}
+.modal-exit{
+  padding: 1% 1em;
+  background-color: rgb(128, 0, 0);
+}
+.modal-mision{
+  text-align: center;
+  font-size: 2em;
+}
+.modal-texto-mision{
+  font-size: 1.2em;
+  padding: 10px 20px;
+}
+@media screen and (max-width: 900px) {
+  /* Estilos responsivos hasta 900px */
+  .btn button {
+    padding: 3px 15px;
+    font-size: 0.8em;
+  }
+
+  .modal-exit {
+    padding: 2% 1em;
+    font-size: 0.8em;
+  }
+
+  .modal-mision {
+    font-size: 1.5em;
+  }
+
+  .modal-texto-mision {
+    font-size: 1em;
+    padding: 5px 10px;
+  }
+}
