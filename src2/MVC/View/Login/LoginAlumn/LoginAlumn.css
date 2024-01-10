@@ -1,0 +1,285 @@
+.container-loginAlumn{
+  width: 100%;
+ height: auto;
+  margin-top: 30px;
+  margin-bottom:80px;
+}
+.container-info-loginAlumn{
+  width: 90%;
+  height: auto;
+  position: relative;
+  top: 10%;
+  left: 70px;
+  display: flex;
+  box-shadow: 1px 2px 50px 20px var(--fondoNavbar);
+}
+.welcome-login{
+  width: 100%;
+  height: auto;
+  background: var( --greenfuerte);
+  display: block;
+  padding-left: 10px;
+}
+.welcome-login h2,
+.form-login h2{
+  color:var(--blanco);
+  font-size: 3em;
+  position: relative;
+  margin: 30px;
+}
+.linea {
+  width: 80%;
+  height: 2px;
+  background-color:var(--blanco); 
+  position: relative;
+  top: 0;
+  left: 20px;
+}
+.welcome-login .login-text{
+  padding: 20px;
+  text-align: left;
+  color :var(--blanco); 
+  font-weight: 100;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 80%;
+}
+.welcome-login img{
+  width: 250px;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 30%;
+}
+.form-login{
+  width: 100%;
+  height: auto;
+  background-color: var( --orange); 
+}
+.form-login  form{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 90%;
+  height: auto;
+}
+.form-login form label{
+  color:var(--blanco); 
+  font-size: 2.1em;
+  margin: 11px;
+}
+.form-login form input{
+  padding: 10px 20px;
+  margin-bottom: 6px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 10px;
+}
+.form-login form input:hover{
+  box-shadow: 1px 2px 50px 20px var(--boxGris); 
+  border-radius: 10px;
+  border: none;
+}
+.form-login form button{
+  padding: 10px 20px;
+  width: 40%;
+  border: none;
+  position: relative;
+  margin-top: 5px;
+  top: 0;
+  left: 30%;
+  cursor: pointer;
+  z-index: 1000;
+}
+.form-login form button:hover{
+ background-color: var(--greenfuerte); 
+  border-radius: 10px;
+  color: var(--blanco); 
+}
+.olv{
+  margin-top: 10px;
+  top: 0;
+  left: 30%;
+  cursor: pointer;
+  text-align: center;
+  color: rgb(42, 4, 4);
+}
+
+@media screen and (max-width: 900px) {
+  .container-loginAlumn {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: auto;
+  }
+
+  .container-info-loginAlumn {
+    width: 95%;
+    height: auto;
+    top: 5%;
+    left: 0;
+    box-shadow: 1px 2px 20px 5px var(--fondoNavbar);
+  }
+
+  .welcome-login h2,
+  .form-login h2 {
+    font-size: 2.5em;
+    margin: 20px;
+  }
+
+  .linea {
+    width: 90%;
+    left: 5%;
+  }
+
+  .welcome-login .login-text {
+    padding: 15px;
+    width: 90%;
+  }
+
+  .welcome-login img {
+    width: 160px;
+    left: 20%;
+  }
+
+  .form-login form {
+    margin: 15px;
+  }
+
+  .form-login form label {
+    font-size: 1.8em;
+    margin: 8px;
+  }
+
+  .form-login form input {
+    padding: 8px 15px;
+    width: 80%;
+  }
+
+  .form-login form button {
+    padding: 8px 15px;
+    width: 50%;
+    left: 25%;
+  }
+
+  .olv {
+    left: 25%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container-loginAlumn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: auto;
+  }
+
+  .container-info-loginAlumn {
+    height: auto;
+    top: 2%;
+    box-shadow: 1px 2px 10px 3px var(--fondoNavbar);
+  }
+
+  .welcome-login h2,
+  .form-login h2 {
+    font-size: 2em;
+    margin: 15px;
+  }
+
+  .linea {
+    width: 95%;
+    left: 2.5%;
+  }
+
+  .welcome-login .login-text {
+    padding: 10px;
+    width: 95%;
+  }
+
+  .welcome-login img {
+    width: 120px;
+    left: 20%;
+  }
+
+  .form-login form {
+    margin: 10px;
+  }
+
+  .form-login form label {
+    font-size: 1.5em;
+    margin: 6px;
+  }
+
+  .form-login form input {
+    padding: 6px 12px;
+  }
+
+  .form-login form button {
+    padding: 6px 12px;
+    width: 60%;
+    left: 20%;
+  }
+
+  .olv {
+    left: 20%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .container-loginAlumn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .container-info-loginAlumn {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    display: block;
+    box-shadow: none;
+  }
+
+  .welcome-login h2,
+  .form-login h2 {
+    font-size: 1.5em;
+    margin: 10px;
+  }
+
+  .linea {
+    width: 80%;
+    left: 0;
+  }
+
+  .welcome-login .login-text {
+    padding: 8px;
+    width: 100%;
+  }
+
+  .welcome-login img {
+    display: none;
+  }
+
+  .form-login form {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .form-login form label {
+    font-size: 1.3em;
+    margin: 4px;
+  }
+
+  .form-login form input {
+    padding: 4px 8px;
+    width: 100%;
+  }
+
+  .form-login form button {
+    padding: 4px 8px;
+    width: 70%;
+    left: 15%;
+  }
+
+  .olv {
+    left: 15%;
+    margin-top: 5px;
+  }
+}
